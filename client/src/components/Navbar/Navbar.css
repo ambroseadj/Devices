@@ -1,0 +1,162 @@
+.main-nav{
+    min-height : 50px;
+    width:100%;
+    margin: 0% auto;
+    
+    box-shadow: 0px 1px 5px #00000033;
+    
+    position:fixed;
+    z-index: 1100;
+    top:0%;
+    left:0%;
+    background-color: #e50914;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+ 
+}
+
+.navbar{
+    height:100%;
+    min-width:85%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-logo{
+
+    padding: 5px 25px;
+  
+}
+
+.nav-item{
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(69,69,69);
+    transition:0.2s ;
+
+}
+.nav-btn{
+    cursor:pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+
+.nav-item:hover{
+    background-color: rgb(226,226,226);
+    
+}
+.navbar form{
+    flex-grow:1;
+    padding:0px 12px;
+    position: relative;
+
+
+}
+.slide-icon {
+    display: block;
+    transition: 0.2s;
+    padding: 5px 6px 3px 6px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+    justify-content: space-between;
+    
+  }
+
+input{
+    min-width: 90%;
+    margin:0;
+    padding : 8px 10px 8px 32px;
+    font-size:13px;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+}
+
+.search-icon{
+
+    position: absolute;
+    left:25px;
+    top:8px;
+}
+
+.nav-links{
+    padding: 5px 13px;
+  
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+    margin-right:-40px ;
+    color:white;
+}
+
+
+
+.nav-links:hover{
+    background-color: black;
+    
+}
+
+.nav-links1{
+    padding: 7px 13px;
+  
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+    margin-right:-40px ;
+    color:white;
+}
+
+.nav-links1:hover{
+    background-color: black;
+    
+}
+
+.navbar .navbar-1 form{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+
+.lefti{
+    display:none;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+   
+    .nav-logo{
+        display: none;
+       
+        
+    }
+    .nav-btn{
+        display: none;
+    }
+
+    
+    .slide-in-icon{
+        display: block;
+    }
+
+   
+   
+    .navbar form{
+        display: none;
+    }
+    
+    
+  }
+
+

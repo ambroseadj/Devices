@@ -1,0 +1,44 @@
+.som{
+
+    
+    
+}
+
+.cust {
+    width: 150px;
+    padding: 10px 5px;
+    background-color: #e50914;
+    border: solid 1px #e50914;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20%;
+
+
+    
+
+  }
+
+  .cust1 {
+    width: 150px;
+    padding: 10px 5px;
+    background-color: #e50914;
+    border: solid 1px #e50914;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: 500;
+    margin-inline: 2%;
+  }
+  
+  .cust:hover {
+    background-color: black;
+  }
+  .cust1:hover {
+    background-color: black;
+  }
