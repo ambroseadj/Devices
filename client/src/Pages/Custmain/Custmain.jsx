@@ -25,7 +25,7 @@ const Custmain = () => {
       try {
         const { alloted_to_user, ...updatedDevice } = editedDevice;
       
-        const response = await axios.put(`http://localhost:5000/devices/${deviceId}`, updatedDevice, {
+        const response = await axios.put(`https://iot-0xyn.onrender.com/devices/${deviceId}`, updatedDevice, {
           headers: {
             'Content-Type': 'application/json',
           },
@@ -50,7 +50,7 @@ const Custmain = () => {
 
   const fetchDevices = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/devices');
+      const response = await axios.get('https://iot-0xyn.onrender.com/devices');
       if (response.status === 200) {
         
         setDevices(response.data);
@@ -78,7 +78,7 @@ const Custmain = () => {
     };
 
     axios
-      .post('http://localhost:5000/devices', newDevice, {
+      .post('https://iot-0xyn.onrender.com', newDevice, {
         headers: {
           'Content-Type': 'application/json',
         },
